@@ -1,6 +1,6 @@
 # Formulário de Cadastro
 
-Projeto simples de formulário HTML com processamento em PHP, desenvolvido como atividade acadêmica para praticar envio de dados via `POST`.
+Projeto simples de formulário HTML com processamento em PHP, desenvolvido como atividade para praticar envio de dados via `POST`.
 
 # Funcionalidades
 

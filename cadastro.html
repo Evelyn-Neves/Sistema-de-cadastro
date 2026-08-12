@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<form id="form1"name="form1"method="post"action="processoCadastro.php">
+    <br>
+    <main>
+        <div class="form">
+            Nome Completo <input name="nome_comp"type="text"id="nome_completo"placeholder = "Digite seu nome completo"></div>
+        <div class="form">
+            Idade <input name="idade"type="text"id="idade"placeholder = "Ex: 18"></div>
+        <div class="form">
+            Profissão <input name="profis"type="text"id="profis"placeholder = "Digite a sua profissão"></div>
+        <div class="form">
+            Salário pretendido <input name="sal"type="text"id="salario"placeholder = "Ex: 1500"></div>
+
+            <!--Campo longo de texto-->
+        <div class="form">
+            <label>Experiência Anterior</label>
+            <textarea name="exp_ant" id="experiencia" cols="60" rows="8" placeholder="Descreva a sua experiência profissioal anterior... (máx 2000 caracteres)" maxlength="2000"></textarea>
+        </div>
+        <input name="Enviar"type="submit"id="enviar"value="enviar">
+    </main>
+</form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(253, 253, 253, 0.993);
+    color: rgb(21, 2, 75);
+}
+main{
+    margin: auto;
+    flex-direction: column;
+    background: linear-gradient(to top, rgb(79, 40, 110), rgb(226, 178, 253));
+    padding: 1em;
+   max-width: 450px;
+   border-radius: 10px;
+   box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.199);
+}
+.form{
+    margin-top: 0.7em;
+}
+#enviar{
+    display: block;
+    margin: auto;
+    min-width: 102%;
+    margin-top: 10px;
+}
+#enviar:hover{
+    background-color: rgb(160, 138, 190);
+    color: rgb(21, 2, 75);
+}
